@@ -1,0 +1,33 @@
+textarea[name="message"]{
+	width: 400px;
+	height: 80px;
+	background: #fff;
+	resize: none;
+}
+
+button[name="commentSubmit"] {
+	width: 100px;
+	height: 30px;
+	background-color: #282828;
+	border: none;
+	color: #fff;
+	font-family: arial;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.output {
+	width: 1000px;
+	padding: 10px;
+	margin-bottom: 3px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.output p {
+	font-family: arial;
+	font-size: 14px;
+	line-height: 16px;
+	color: #282828;
+	font-weight: 100;
+}
